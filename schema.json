@@ -1,0 +1,6 @@
+{
+  "required_fields": ["id", "name", "gender"],
+  "field_value_set": {
+    "day": ["SU", "MO", "TU", "WE", "TH", "FR", "SA"]
+  }
+}
