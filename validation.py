@@ -1,7 +1,7 @@
 import json
 
 
-class NewValidator:
+class JsonValidator:
 
     def validate_schema(self,json_file,schema_file)->bool:
         """
@@ -60,7 +60,7 @@ class NewValidator:
         return True
 
 
-validation = NewValidator()
+validation = JsonValidator()
 
 result = validation.validate_schema(json_file="dummydata.json",schema_file="schema.json")
 
